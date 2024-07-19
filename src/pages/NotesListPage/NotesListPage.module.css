@@ -1,0 +1,33 @@
+
+.notesHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+  }
+  
+  .notesTitle,
+  .notesCount {
+    color: var(--color-main);
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .notesCount {
+    font-size: 18px;
+    color: var(--color-gray);
+  }
+  
+  
+  .notesList {
+    padding: 0;
+    margin: 16px 0;
+    height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: none; 
+  }
+  
+  .notesList::-webkit-scrollbar {
+    display: none;
+  }
+  

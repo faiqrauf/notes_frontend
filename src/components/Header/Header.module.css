@@ -1,0 +1,17 @@
+.appHeader {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+    background-color: var(--color-lighter);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    
+    h1 {
+        font-size: 30px;
+        color: var(--color-dark);
+        font-weight: 800;
+        text-align: center;
+      }
+  }
+  
+  
